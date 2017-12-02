@@ -3,10 +3,9 @@ function happyHolidays() {
   return "Happy holidays!"
 }
 
-name = "you"
+var name = "you";
 
 function happyHolidaysTo(name) {
-  name === name.toEqual("you")
   return "Happy holidays, ${name}!"
 }
 
