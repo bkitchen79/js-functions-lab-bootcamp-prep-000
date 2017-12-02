@@ -3,6 +3,8 @@ function happyHolidays() {
   return "Happy holidays!"
 }
 
+name = "you"
+
 function happyHolidaysTo(name) {
   name === name.toEqual("you")
   return "Happy holidays, ${name}!"
@@ -10,7 +12,6 @@ function happyHolidaysTo(name) {
 
 function happyHolidayTo(holiday, name) {
   return "Happy ${holiday}, ${name}!"
-  name = "you"
   holiday = "Independence Day"
 }
 
