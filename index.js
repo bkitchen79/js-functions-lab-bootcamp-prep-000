@@ -17,3 +17,5 @@ function holidayCountdown(days, holiday) {
   days = 20
   holiday = "Mother's Day"
 }
+
+happyHolidaysTo("you")
