@@ -4,7 +4,7 @@ function happyHolidays() {
 }
 
 function happyHolidaysTo(name) {
-  name === "you"
+  name === name.toEqual("you")
   return "Happy holidays, ${name}!"
 }
 
